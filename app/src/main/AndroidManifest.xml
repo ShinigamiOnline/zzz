@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PreferenciasActivity"></activity>
-
+        <activity android:name=".PreferenciasActivity" />
+        <activity android:name=".ConsultaMunicipios" />
+        <activity android:name=".GestionMunicipios"></activity>
     </application>
 
 </manifest>
