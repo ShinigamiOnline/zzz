@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preferencias">
+
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="numHabitantes"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Número de habitantes." />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="municipio"
+            android:title="Municipio con albergues" />
+    </PreferenceCategory>
+</PreferenceScreen>
